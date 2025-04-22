@@ -1,7 +1,6 @@
-# Peerislands
-# Dynamic DataFrame Transformation Framework in PySpark
+# Dynamic PySpark DataFrame Transformation Framework
 
-A configurable framework for dynamic DataFrame transformations in PySpark.
+A configurable framework for applying dynamic transformations to PySpark DataFrames.
 
 ## Features
 
@@ -13,5 +12,6 @@ A configurable framework for dynamic DataFrame transformations in PySpark.
 
 ## Installation
 
+1. Install PySpark:
 ```bash
 pip install pyspark
