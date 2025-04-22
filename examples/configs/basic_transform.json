@@ -1,1 +1,20 @@
-
+{
+    "transformations": [
+        {
+            "op": "with_column",
+            "params": {
+                "column_name": "bonus",
+                "expression": "salary * 0.1"
+            }
+        },
+        {
+            "op": "filter",
+            "params": {
+                "condition": "bonus > 300"
+            }
+        }
+    ],
+    "action": {
+        "op": "show"
+    }
+}
