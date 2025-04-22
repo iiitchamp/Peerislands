@@ -1,0 +1,23 @@
+dynamic-pyspark-transformer/
+│
+├── src/
+│   ├── __init__.py
+│   ├── transformer.py          # Main framework code
+│   └── exceptions.py           # Custom exceptions
+│
+├── examples/
+│   ├── basic_usage.py          # Basic transformation examples
+│   ├── json_config_usage.py    # JSON configuration example
+│   ├── custom_transforms.py    # Custom transformation example
+│   └── configs/
+│       ├── basic_transform.json
+│       └── aggregation.json
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_transformations.py
+│   └── test_actions.py
+│
+├── requirements.txt            # Dependencies
+├── README.md                   # Documentation
+└── .gitignore
